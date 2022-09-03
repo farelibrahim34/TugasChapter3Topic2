@@ -3,7 +3,9 @@ package com.example.tugaschapter3topic2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_intent_hasil.*
-
+//UNTUK INTENT BISA LANGSUNG KELUAR HASIL KARENA MENGAMBIL DARI INPUTAN LANGSUNG OUTPUTNYA
+//UNTUK BUNDLE, SERIAL, DAN PARCEL SAYA AMBIL DARI INPUTAN BUTTON HITUNG JADI HARUS KLIK BUTTON HITUNG DAHULU
+//BARU BISA KELUAR OUTPUTNYA
 class IntentHasil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -11,8 +13,6 @@ class IntentHasil : AppCompatActivity() {
 
 
         ambilDataIntent()
-
-
 
     }
     fun ambilDataIntent(){
